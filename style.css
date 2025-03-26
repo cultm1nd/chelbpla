@@ -1,0 +1,134 @@
+/* headr */
+.header{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(49, 118, 221);
+    height: 100px;
+    /* justify-content: center;
+    justify-items: center; */
+    align-content: center;
+}
+.border_header a{
+    border:1px solid white;
+    text-decoration: none;
+    color:white;
+    border-radius: 5px;
+    padding : 10px 15px 10px 15px;
+    font-size:25px;
+    font-style:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* about */
+.about{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    column-gap: 50px;
+}
+.about #about_left{
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(49, 118, 221);
+}
+.about #about_right{
+     margin-top: 30px;
+    font-size: 25px;
+}
+/* news */
+.news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.button_news a{
+    border:1px solid rgb(49, 118, 221);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding : 5px 10px 5px 10px;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* partners */
+.partners_text{
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(49, 118, 221);
+}
+.partners_imgs{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+/* news */
+.news_text{
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(49, 118, 221);
+}
+/* raspisanie */
+.raspisanie_text{
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(49, 118, 221);
+}
+/* competitions */
+.competitions
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    border:1px solid rgb(49, 118, 221);
+    padding : 20px 25px 20px 25px;
+    border-radius: 10px;
+}
+.text_competitions #place1{
+    color: rgb(49, 118, 221);
+     font-size: 40px;
+}
+.text_competitions #place2{
+    color: rgb(49, 118, 221);
+    font-size: 30px;
+}
+.text_competitions #ages{
+    color: rgb(49, 118, 221);
+     font-size: 40px;
+}
+/* exampleNews */
+.exampleNews{
+    color: rgb(49, 118, 221);
+}
+.exampleNews p{
+    color: rgb(0, 0, 0);
+}
+.exampleNews #but_back a{
+    border:1px solid rgb(49, 118, 221);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding : 5px 10px 5px 10px;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:200px;
+}
+/* footer */
+.footer
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(49, 118, 221);
+    color:white;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 1000px;
+}
+.footer a
+{
+    color:white;
+    text-decoration: none;
+}
+.footer_right{
+    display: grid;
+    grid-template-rows: auto auto;
+}
